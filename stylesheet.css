@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(173, 224, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 320px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding:20px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);;
+}
+.profilepic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 15px auto;
+}
+   
+.box .text h5{
+    color: rgb(58, 57, 57);
+}
+.button button{
+    background-color: rgb(44, 134, 52);
+    padding: 10PX 20px ;
+    border-radius: 15px;
+     border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.button{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.button button:hover{
+    background-color: rgb(60, 160, 69) ;
+     transform: scale(1.05);
+}
